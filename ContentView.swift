@@ -17,7 +17,7 @@ import Foundation
 struct ContentView: View {
     // Inital varable declaration; controls starting values.
     @State var gameVersion = 1.7
-    @State var isBeta = true
+    @State var isBeta = false
     @State var showChangeLog = false
     @State var gameStarted = false
     @State var tapCount = 0
